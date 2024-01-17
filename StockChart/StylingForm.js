@@ -1,0 +1,143 @@
+import { StyleSheet } from "react-native";
+
+const stockStyle = StyleSheet.create({
+    headerContainer: {
+      backgroundColor: 'white',
+      height: 80,
+      flex: 0.35,
+      flexDirection: 'row',
+      borderBottomColor: "lightgrey",
+      borderBottomWidth: 1,
+    },
+    headerLeftView: {
+     flex: 1,
+     backgroundColor: 'white',
+    },
+    headerRightView: {
+     flex: 0.6,
+     backgroundColor:'white',
+     justifyContent: "space-around",
+     flexDirection: "row",
+     marginRight: 10,
+    },
+    barContainerView: {
+     backgroundColor: '#F2F3F5',
+     alignItems: 'center',
+     justifyContent: 'center',
+     flex: 2,
+    },
+    lastViewcontainer: { 
+      backgroundColor: 'white',
+      flex: 2,
+    },
+    sideMenuImage: {
+      borderRadius: 20,
+      height: 40,
+      width: 40,
+      marginLeft: 15,
+      marginTop: 10,
+
+    },
+    graphMainView: {
+      borderRadius: 10,
+      backgroundColor: "white",
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: 300,
+      width: 350,
+      borderWidth: 1,
+      borderColor: 'lightgrey',
+    },
+    searchBackGroundView: {
+      height: 45,
+      backgroundColor: "white",
+      marginLeft: 20,
+      marginRight: 20,
+      borderRadius: 10,
+      borderWidth: 1,
+      borderColor: "lightgrey",
+      marginTop: 10,
+    },
+    searchIconImg: {
+      height: 25,
+      width: 25,
+      marginTop: 10,
+      marginLeft: 10,
+    },
+    searchStyle: {
+     marginLeft: 50,
+     marginTop: -20,
+    },
+    flatTopList: {
+      height: 25,
+      backgroundColor:"white",
+      flexDirection: "row",
+      justifyContent: "space-around",
+      marginTop: 15,
+      borderBottomColor: "lightgrey",
+      borderBottomWidth: 1,
+    },
+    listContainerView: {
+      flex: 1,
+      flexDirection: "row",
+      backgroundColor: "white",
+      justifyContent: "space-around",
+      height: 50,
+      borderBottomColor: "lightgrey",
+      borderBottomWidth: 1,
+      marginTop:0,
+      alignItems:"center",
+
+    },
+    container: {
+      flex: 1,
+      backgroundColor: '#eef0f2',
+    },
+    grapghBgView: {
+      flex: 1,
+      margin: 15,
+      flexDirection: 'column',
+      backgroundColor: 'white',
+      borderRadius: 10,
+      borderWidth: 1,
+      borderColor: '#dfe0e1',
+    },
+    headingText: {
+      fontSize: 26,
+      fontWeight: '800',
+      color: 'black',
+    },
+    headingText1: {
+      top: 10,
+      flex: 0.7,
+      marginLeft: 0,
+      fontSize: 16,
+      fontWeight: '500',
+      color: 'black',
+    },
+    popupText: {
+      backgroundColor: 'white',
+      fontSize: 20,
+      fontWeight: '700',
+      color: 'black',
+      textAlign: 'right',
+      flex: 0.7,
+    },
+    popupLightText: {
+      top: 0,
+      backgroundColor: 'white',
+      marginLeft: 3,
+      fontSize: 15,
+      fontWeight: '400',
+      color: 'black',
+    },
+    popupLightText1: {
+      top: 0,
+      backgroundColor: 'white',
+      fontSize: 10,
+      fontWeight: '400',
+      color: 'black',
+    },
+});
+
+export {stockStyle};
