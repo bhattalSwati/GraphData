@@ -9,19 +9,19 @@ import Header from './HeaderFile';
 import NavigateView from './NavigationView';
 import BarGraph from './BarView';
 import listView from './Listview';
-import AppDataContext from './Context';
+import AppDataContext, { Context2 } from './Context';
 
 export default function StockGraphChart() {
 
   const [price, setPrice] = useState("0");
 
-    return (
-      <AppDataContext.Provider value={[price, setPrice]}>
-        <SafeAreaView style={{flex: 1}}>
-        <Header/>
-        <BarGraph/>
-        <NavigateView/>
+  return (
+    <AppDataContext.Provider value={[price, setPrice]}>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Header />
+        <BarGraph />
+        <NavigateView />
       </SafeAreaView>
-      </AppDataContext.Provider>
-    );
+    </AppDataContext.Provider>
+  );
 };

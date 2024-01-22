@@ -20,10 +20,10 @@ const graphData = [
     ],
   },
 ];
-const headers = ['All', '2h', '4h', '16h', '1d', '7d', '30d'];
+const headers = ['All', '2h', '4h', '8h', '16h', '32h', '37h'];
 
 export default function BarGraph() {
-
+  console.log("Graph execute....")
   const [price , setPrice ] = useContext(AppDataContext);
 
     return (
@@ -49,7 +49,7 @@ export default function BarGraph() {
             overflow: 'hidden',
           }}>
           <Text style={stockStyle.headingText}>{price}</Text>
-          <Text style={stockStyle.popupLightText1}>Last Update Yesterday</Text>
+          <Text style={stockStyle.popupLightText1}>Last update yesterday</Text>
           <FlatList
             style={{marginRight: 10, top: 6}}
             horizontal

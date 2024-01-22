@@ -138,6 +138,44 @@ const stockStyle = StyleSheet.create({
       fontWeight: '400',
       color: 'black',
     },
+    container1: {
+      flex: 1,
+      padding: 16,
+    },
+    input: {
+      height: 40,
+      borderColor: 'gray',
+      borderWidth: 1,
+      marginBottom: 16,
+      paddingLeft: 8,
+    },
+    itemContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: 16,
+      backgroundColor: "green",
+    },
+    image: {
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      marginRight: 16,
+    },
+    textContainer: {
+      flex: 1,
+    },
+    marketName: {
+      fontSize: 18,
+      fontWeight: 'bold',
+    },
+    price: {
+      fontSize: 16,
+      color: 'green',
+    },
+    change: {
+      fontSize: 16,
+      color: 'red',
+    },
 });
 
 export {stockStyle};
